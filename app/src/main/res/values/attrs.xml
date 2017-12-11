@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ToolBar">
+        <!-- 左侧图片 -->
+        <attr name="tb_leftDrawable" format="reference" />
+        <!-- 右侧图片 -->
+        <attr name="tb_rightDrawable" format="reference" />
+        <!-- 文字title -->
+        <attr name="tb_titleText" format="reference" />
+        <attr name="tb_titleColor" format="reference" />
+
+        <attr name="tb_hasElevation" format="boolean" />
+        <attr name="tb_hasRightButton" format="boolean" />
+    </declare-styleable>
+
+</resources>

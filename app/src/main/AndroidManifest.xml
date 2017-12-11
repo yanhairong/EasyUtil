@@ -20,6 +20,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--公共 Activity Start -->
+        <activity
+            android:name=".base.StandardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name=".base.SingleTopActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <activity
+            android:name=".base.NewTaskActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
     </application>
 
 </manifest>

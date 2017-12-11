@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/common_frame"
+    android:orientation="vertical">
+
+    <yhr.git.com.easyutil.util.ToolBar
+        android:id="@+id/common_toolbar"
+        style="@style/toolbar_style"
+        app:tb_leftDrawable="@drawable/common_ic_return" />
+
+    <FrameLayout
+        android:id="@+id/common_contentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

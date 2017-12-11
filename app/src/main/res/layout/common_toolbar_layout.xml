@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 左侧按钮 -->
+    <ImageView
+        android:id="@+id/iv_common_toolbar_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:scaleType="center"
+        android:visibility="visible" />
+
+    <!-- 右边的控件 -->
+    <ImageView
+        android:id="@+id/iv_common_toolbar_right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:paddingRight="5dp"
+        android:visibility="visible" />
+
+    <!-- 右边第二个的控件 -->
+    <ImageView
+        android:id="@+id/iv_common_toolbar_right_two"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@+id/iv_common_toolbar_right"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:paddingRight="10dp"
+        android:visibility="gone" />
+
+
+    <!-- title -->
+    <TextView
+        android:id="@+id/tv_common_toolbar_title"
+        style="@style/common_textView_style"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_common_toolbar_left"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+</merge>
